@@ -1,0 +1,101 @@
+/* Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --primaryWhite: #ffffff;
+    --primaryBalck: #000000;
+    --primaryColor: #3f3fc7;
+    --secondaryColor: #d68e08;
+    --defaultFont: Arial;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-image: url("/images/img3.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+}
+.navbar{
+    height: 25px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .siteName{
+    align-self: center;
+    font-family: 'Poppins';
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+/* Hover effect disabled for now till a proper color scheme is given
+.navbar .siteName:hover{ 
+    color: #ff7f27;
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+}
+*/
+
+
+.navbar .navItems{ 
+    width: auto;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.navbar .navItems a{
+    text-decoration: none;
+    color: var(--primaryWhite);
+    font-family: var(--defaultFont);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.home{
+    margin-right: 30px;
+}
+.about{
+    margin-right: 30px;
+}
+.services{
+    margin-right: 30px;
+}
+.contact{
+    margin-right: 30px;
+}
+.fdback{
+    margin-right: 30px;
+}
+.home:hover{ 
+    transform: scale(1.2);
+    transition: 1s;
+    color: #ff0000;
+}
+.about:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #ff7f27;
+}
+.services:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #ffca18;
+}
+.contact:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #0ed145;
+}

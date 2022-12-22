@@ -34,6 +34,7 @@ body{
     margin-left: 20px;
     color: white;
     background-color: transparent;
+    
 }
 
 /* Hover effect disabled for now till a proper color scheme is given
@@ -80,27 +81,27 @@ body{
     margin-right: 30px;
 }
 .home:hover{ 
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 1s;
     color: #ff0000;
 }
 .about:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 1s;
     color: #ff7f27;
 }
 .services:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 1s;
     color: #ffca18;
 }
 .contact:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 1s;
     color: #0ed145;
 }
 .fdback:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 1s;
     color: #64f0c1;
 }
@@ -141,6 +142,7 @@ body{
     height: 50px;
     font-family: 'Poppins';
     font-weight: bold;
+    cursor: pointer;
 }
 .outlined:hover{
     background-color: white;
@@ -161,6 +163,7 @@ body{
     width: 100px;
     height: 50px;
     font-family: 'Poppins';
+    cursor: alias;
 }
 .inlined:hover{
     background-color: transparent;
